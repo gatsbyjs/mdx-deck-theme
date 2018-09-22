@@ -35,6 +35,7 @@ examples/blog/public/
 *.un~
 dist
 es/
+cjs/
 bin/published.js
 
 # Build Path of Test Fixtures
