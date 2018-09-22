@@ -15,7 +15,8 @@ export default {
   },
   h2: {
     color: 'grey',
-    fontWeight: 400
+    fontWeight: 400,
+    textAlign: 'left'
   },
   prism: {
     style: okaidia // todo: use custom GatsbyJS theme

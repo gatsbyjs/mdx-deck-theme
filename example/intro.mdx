@@ -1,5 +1,7 @@
-import { Head } from 'mdx-deck'
+import { Head, FullScreenCode } from 'mdx-deck'
 import { Main, Section, SectionInverted } from 'gatsby-mdx-theme/es/layouts'
+
+export default Main
 
 # Gatsby Presentation
 
@@ -21,9 +23,9 @@ export default Section
 export default SectionInverted
 
 # Inverted
----
 
-## Code snippet
+---
+export default FullScreenCode
 
 ```jsx
 import React from "react";
@@ -31,6 +33,10 @@ import React from "react";
 export default () => null
 ```
 ---
-export default Main
+export default Section
 
-# Conclusion
+## Bulleted list
+
+- This thing
+- That thing
+- Other, other benz

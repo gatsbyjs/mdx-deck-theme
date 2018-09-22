@@ -13,11 +13,15 @@ const Container = styled.div`
   width: 100vw;
   height: 100vh;
   background-color: white;
+
+  align-items: flex-start;
 `
 
 const CenteredHalf = styled(Center)`
   flex-direction: column;
   height: 50vh;
+
+  padding-left: 15vw;
 `
 
 const PurpleBg = styled.div`
