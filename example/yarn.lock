@@ -2215,9 +2215,9 @@ function-bind@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/function-bind/-/function-bind-1.1.1.tgz#a56899d3ea3c9bab874bb9773b7c5ede92f4895d"
 
-gatsby-mdx-theme@^0.0.2:
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/gatsby-mdx-theme/-/gatsby-mdx-theme-0.0.2.tgz#39385f87e8ebf7f8986ef8c4721b0c58932b2e13"
+gatsby-mdx-theme@^0.0.4:
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/gatsby-mdx-theme/-/gatsby-mdx-theme-0.0.4.tgz#b3b3d38ebf6055d697cc5ed2d27a00adda23d878"
 
 gauge@~2.7.3:
   version "2.7.4"

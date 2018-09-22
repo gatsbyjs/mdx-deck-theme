@@ -11,6 +11,10 @@ const Container = styled(Center)`
   position: relative;
   background-color: ${props => (props.inverted ? colors.gatsby : 'white')};
 
+  h1 {
+    text-align: left;
+  }
+
   h2 {
     color: grey;
     font-weight: 400;

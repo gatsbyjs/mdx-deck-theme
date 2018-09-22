@@ -16,7 +16,7 @@ const Container = styled.div`
 
   align-items: flex-start;
 
-  h1, h2 {
+  h1 {
     text-align: left;
   }
 
