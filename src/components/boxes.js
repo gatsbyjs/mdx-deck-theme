@@ -1,6 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
 
+import colors from '../colors'
+
 const Container = styled.div`
   display: flex;
   flex-direction: column;
@@ -31,11 +33,15 @@ const Center = styled.div`
   top: 50%;
   left: 50%;
 
-  transform: translateX(-75%) translateY(-65%);
+  transform: translateX(-25%) translateY(-75%);
+
+  @media only screen and (min-width: 1024px) {
+    transform: translateX(-75%) translateY(-100%); // hack
+  }
 `
 
 export function Boxes({ children, inverted }) {
-  let layers = [`#f5f3f7`, `#8c65b3`, `#663399`]
+  let layers = [colors.code.bg, colors.lilac, colors.gatsby]
 
   if (inverted) {
     layers = layers.reverse()

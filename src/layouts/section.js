@@ -2,14 +2,14 @@ import React from 'react'
 import styled, { css } from 'styled-components'
 
 import { Center, LogoBoxes } from '../components'
-import { color as baseColor } from '../colors'
+import colors from '../colors'
 
 const Container = styled(Center)`
   height: 100vh;
   width: 100vw;
 
   position: relative;
-  background-color: ${props => (props.inverted ? baseColor : 'white')};
+  background-color: ${props => (props.inverted ? colors.gatsby : 'white')};
 
   ${props =>
     props.inverted &&

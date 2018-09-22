@@ -1,7 +1,8 @@
 import theme from 'mdx-deck/themes'
-import okaidia from 'react-syntax-highlighter/styles/prism/okaidia'
 
 import { code, header } from './fonts'
+import colors from './colors'
+import codeTheme from './gatsby-code-theme'
 
 export * from './layouts'
 
@@ -11,7 +12,7 @@ export default {
   monospace: code.join(','),
   colors: {
     background: 'white',
-    heading: '#663399'
+    heading: colors.gatsby
   },
   h2: {
     color: 'grey',
@@ -19,6 +20,6 @@ export default {
     textAlign: 'left'
   },
   prism: {
-    style: okaidia // todo: use custom GatsbyJS theme
+    style: codeTheme
   }
 }

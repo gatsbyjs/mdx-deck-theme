@@ -2,8 +2,8 @@ import React from 'react'
 import styled from 'styled-components'
 
 const Svg = styled.svg`
-  min-height: 40px;
-  min-width: 125px;
+  min-height: 50px;
+  min-width: 150px;
 `
 
 export const Logo = ({ inverted, ...rest }) => {

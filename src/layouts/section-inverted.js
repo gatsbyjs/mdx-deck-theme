@@ -9,8 +9,3 @@ export default function SectionInverted({ children, ...rest }) {
     </Section>
   )
 }
-
-SectionInverted.defaultProps = {
-  color: 'white',
-  heading: 'white'
-}

@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import styled from 'styled-components'
 
 import { Center } from '../components'
-import { color } from '../colors'
+import colors from '../colors'
 
 const Container = styled.div`
   display: flex;
@@ -27,7 +27,7 @@ const CenteredHalf = styled(Center)`
 const PurpleBg = styled.div`
   width: 100vw;
   height: 50vh;
-  background-color: ${color};
+  background-color: ${colors.gatsby};
 `
 
 export default function Main({ children }) {
