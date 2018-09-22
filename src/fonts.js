@@ -11,18 +11,18 @@ export const header = [
   `Droid Sans`,
   `Helvetica Neue`,
   `Arial`,
-  `sans-serif`,
+  `sans-serif`
 ]
 
 export const body = [`Spectral`, `Georgia`, `Times New Roman`, `Times`, `serif`]
 
 export const code = [
-    `Space Mono`,
-    `SFMono-Regular`,
-    `Menlo`,
-    `Monaco`,
-    `Consolas`,
-    `Liberation Mono`,
-    `Courier New`,
-    `monospace`,
-  ]
+  `Space Mono`,
+  `SFMono-Regular`,
+  `Menlo`,
+  `Monaco`,
+  `Consolas`,
+  `Liberation Mono`,
+  `Courier New`,
+  `monospace`
+]

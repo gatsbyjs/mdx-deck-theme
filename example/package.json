@@ -4,11 +4,14 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "build": "mdx-deck build deck.mdx",
-    "start": "mdx-deck deck.mdx"
+    "build": "mdx-deck build deck.js --webpack webpack.config.js",
+    "start": "mdx-deck deck.js --webpack webpack.config.js"
   },
   "devDependencies": {
-    "mdx-deck": "^1.7.4"
+    "css-loader": "^1.0.0",
+    "file-loader": "^2.0.0",
+    "mdx-deck": "^1.7.4",
+    "style-loader": "^0.23.0"
   },
   "dependencies": {
     "typeface-space-mono": "^0.0.54",
