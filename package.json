@@ -11,8 +11,8 @@
     "babel": "babel src --out-dir es"
   },
   "files": [
-    "cjs/gatsby-mdx-theme.js",
-    "es"
+    "cjs/*",
+    "es/*"
   ],
   "devDependencies": {
     "@babel/cli": "^7.1.0",
