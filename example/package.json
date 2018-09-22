@@ -1,5 +1,5 @@
 {
-  "name": "example",
+  "name": "@gatsby/webinar-presentation",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -16,7 +16,7 @@
     "style-loader": "^0.23.0"
   },
   "dependencies": {
-    "gatsby-mdx-theme": "^0.0.3",
+    "gatsby-mdx-theme": "^0.0.2",
     "typeface-space-mono": "^0.0.54",
     "typeface-spectral": "^0.0.54"
   }
