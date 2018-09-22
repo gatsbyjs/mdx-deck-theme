@@ -9,5 +9,9 @@
   },
   "devDependencies": {
     "mdx-deck": "^1.7.4"
+  },
+  "dependencies": {
+    "typeface-space-mono": "^0.0.54",
+    "typeface-spectral": "^0.0.54"
   }
 }

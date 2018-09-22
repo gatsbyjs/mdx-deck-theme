@@ -48,8 +48,8 @@ export function Boxes({ children, inverted }) {
           <Layer
             key={color}
             style={{
-              top: `${-2.5 * index}vw`,
-              left: `${-2.5 * index}vw`,
+              top: `${(index === 1 ? -3 : -2.5) * index}vw`,
+              left: `${(index === 1 ? -3 : -2.5) * index}vw`,
               backgroundColor: color
             }}
           />
