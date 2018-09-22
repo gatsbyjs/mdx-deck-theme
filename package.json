@@ -1,12 +1,13 @@
 {
   "name": "gatsby-mdx-theme",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "main": "cjs/gatsby-mdx-theme.js",
   "module": "es/gatsby-mdx-theme.js",
   "author": "Dustin Schau <dustin@gatsbyjs.com>",
   "license": "MIT",
   "scripts": {
     "precommit": "pretty-quick --staged",
+    "prepare": "cross-env NODE_ENV=production npm run build",
     "build": "rollup -c rollup.config.js && npm run babel",
     "babel": "babel src --out-dir es --source-maps",
     "babel:watch": "npm run babel -- --watch"
@@ -21,6 +22,7 @@
     "@babel/plugin-syntax-object-rest-spread": "^7.0.0",
     "@babel/preset-env": "^7.1.0",
     "@babel/preset-react": "^7.0.0",
+    "cross-env": "^5.2.0",
     "husky": "^0.14.3",
     "prettier": "^1.14.3",
     "pretty-quick": "^1.7.0",
