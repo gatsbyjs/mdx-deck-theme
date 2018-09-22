@@ -14,11 +14,6 @@ export default {
     background: 'white',
     heading: colors.gatsby
   },
-  h2: {
-    color: 'grey',
-    fontWeight: 400,
-    textAlign: 'left'
-  },
   prism: {
     style: codeTheme
   }

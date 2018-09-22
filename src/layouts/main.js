@@ -15,6 +15,16 @@ const Container = styled.div`
   background-color: white;
 
   align-items: flex-start;
+
+  h1, h2 {
+    text-align: left;
+  }
+
+  h2 {
+    color: grey;
+    font-weight: 400;
+    text-align: left;
+  }
 `
 
 const CenteredHalf = styled(Center)`

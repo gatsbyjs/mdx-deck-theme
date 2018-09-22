@@ -1,6 +1,6 @@
 {
   "name": "gatsby-mdx-theme",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "cjs/gatsby-mdx-theme.js",
   "module": "es/gatsby-mdx-theme.js",
   "author": "Dustin Schau <dustin@gatsbyjs.com>",
