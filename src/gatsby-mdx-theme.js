@@ -16,6 +16,17 @@ export default {
     background: 'white',
     heading: colors.gatsby
   },
+  blockquote: {
+    color: colors.gatsby,
+    paddingLeft: '2rem',
+    borderLeft: `5px solid ${colors.gatsby}`
+  },
+  paragraph: {
+    color: colors.gatsby
+  },
+  li: {
+    color: colors.gatsby
+  },
   prism: {
     style: codeTheme
   }
