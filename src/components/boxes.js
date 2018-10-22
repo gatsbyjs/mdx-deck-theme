@@ -19,7 +19,7 @@ const Layers = styled.div`
 const Layer = styled.div`
   background-color: #f5f3f7;
   height: 100%;
-  width: 25vw;
+  width: 15vw;
 
   position: absolute;
   top: 0;
@@ -36,7 +36,7 @@ const Center = styled.div`
   transform: translateX(-25%) translateY(-75%);
 
   @media only screen and (min-width: 1024px) {
-    transform: translateX(-75%) translateY(-100%); // hack
+    transform: translateX(-100%) translateY(-100%); // hack
   }
 `
 
@@ -54,8 +54,8 @@ export function Boxes({ children, inverted }) {
           <Layer
             key={color}
             style={{
-              top: `${(index === 1 ? -3 : -2.5) * index}vw`,
-              left: `${(index === 1 ? -3 : -2.5) * index}vw`,
+              top: `${(index === 1 ? -15 : -10) * index}%`,
+              left: `${(index === 1 ? -15 : -10) * index}%`,
               backgroundColor: color
             }}
           />

@@ -5,6 +5,7 @@ import nodeResolve from 'rollup-plugin-node-resolve'
 export default {
   input: 'src/gatsby-mdx-theme.js',
   output: {
+    exports: 'named',
     file: 'cjs/gatsby-mdx-theme.js',
     format: 'cjs',
     sourcemap: true

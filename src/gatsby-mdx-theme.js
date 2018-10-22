@@ -10,6 +10,8 @@ export default {
   ...theme,
   font: header.join(','),
   monospace: code.join(','),
+  transitionTimingFunction: 'linear',
+  transitionDuration: '0s',
   colors: {
     background: 'white',
     heading: colors.gatsby
